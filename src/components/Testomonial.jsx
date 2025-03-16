@@ -9,7 +9,7 @@ const Testomonial = () => {
         Discover our wide range of beauty treatments and services
       </p>
 
-      <div className="w-full grid grid-cols-3 gap-4 pt-5 gap-y-6 px-3 sm:px-0">
+      <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
         <Link
           to={`/appointment/${assets._id}`}
           className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] translate-all duration-500"
