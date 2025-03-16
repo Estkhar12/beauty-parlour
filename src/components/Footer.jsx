@@ -6,12 +6,10 @@ const Footer = () => {
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         {/* left Section */}
         <div>
-          <img className="mb-5 w-40" src={assets.logo} alt="" />
+          <img className="mb-5 mt-0 w-60" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 to-gray-600 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            repellat, ex necessitatibus deleniti dicta quibusdam, amet ipsa
-            soluta placeat aperiam ea voluptas velit rem hic eligendi? Minus sit
-            magnam numquam.
+            Your ultimate destination for beauty and wellness. Transform your
+            look with our expert beauty services.
           </p>
         </div>
         {/* center Section */}
